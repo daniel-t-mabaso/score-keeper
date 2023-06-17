@@ -1,0 +1,237 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 1200px;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+.navigation{
+    width: calc(100%);
+    height: 90px;
+}
+
+.navigation-item{
+    height: 50px;
+    width: calc(100%/5 - 22px* 2);
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.navigation-item:hover{
+    background-color: #8ABDFF;;
+}
+
+.section{
+    width: calc(100% - 50px * 2);
+    height: calc(100% - 90px - 20px * 2);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.points{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 90px;
+    height: 25px;
+    padding: 5px;
+    line-height: 25px;
+    
+}
+.hide{
+    display: none;
+}
+.team-name{
+    width: 250px;
+    text-align: center;
+}
+.team-item{
+    width: 900px;
+    height: 35px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-field{
+    width: 500px;
+    height: 25px;
+    padding: 5px;
+}
+.button{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 90px;
+    height: 25px;
+    padding: 5px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.subtract-point{
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.add-point{
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.add-bonus-point{
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 360px){
+    .navigation-item{
+        width:calc(100% / 5 - 10px);
+        padding: 0px;
+    }
+        .content{
+            width: 360px;
+            padding: 5px;
+        }
+        
+        .team-item{
+            width: 300px;
+        }
+        .section{
+            padding: 10px;
+        }
+        .input-field{
+            width: 200px;
+        }
+        .points{
+            width: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .team-name{
+            width: 55px;
+        }
+        .button{
+            width: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 450px){
+    
+.navigation-item{
+    width: calc(100% / 5 - 10px);
+    padding: 0px;
+}
+    .content{
+        width: 360px;
+        padding: 5px;
+    }
+    
+    .team-item{
+        width: 300px;
+    }
+    .section{
+        padding: 10px;
+    }
+    .input-field{
+        width: 200px;
+    }
+    .points{
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .team-name{
+        width: 55px;
+    }
+    .button{
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    .content{
+        width: 430px;
+    }
+    .navigation-item{
+        width: calc(100%/5 - 10px);
+        padding: 0px;
+    }
+    .section{
+        padding: 15px;
+    }
+    
+    .team-item{
+        width: 400px;
+    }
+    .input-field{
+        width: 300px;
+    }
+    .points{
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .team-name{
+        width: 100px;
+    }
+    .button{
+        width: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1200px){
+    .content{
+        width: 730px;
+    }
+    
+    .team-item{
+        width: 650px;
+    }
+    .input-field{
+        width: 400px;
+    }
+    .points{
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .button{
+        width: 70px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px){}

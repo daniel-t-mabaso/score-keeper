@@ -1,0 +1,45 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.primary-bg{
+    background-color: #2D5385;
+}
+.secondary-bg{
+    background-color: #5C8FD1;
+}
+.tertiary-bg{
+    background-color: #8ABDFF;
+}
+
+.alternative-bg{
+    background-color: #D1A85C;
+}
+.success-bg{
+    background-color: #8A9E36;
+}
+.danger-bg{
+    background-color: #D97F75;
+}
+.primary-txt{
+    color: #2D5385;
+}
+.secondary-txt{
+    color: #5C8FD1;
+}
+.tertiary-txt{
+    color: #8ABDFF;
+}
+
+.alternative-txt{
+    color: #D1A85C;
+}
+.white-txt{
+    color: white;
+}
+
+.success-txt{
+    color: #8A9E36;
+}
+.danger-txt{
+    color: #D97F75;
+}
